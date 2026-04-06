@@ -1,0 +1,8 @@
+image: python:3.9
+
+stages:
+  - test
+
+test:
+  script:
+    - python -m unittest discover
